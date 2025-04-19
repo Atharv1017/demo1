@@ -1,0 +1,13 @@
+function area = circle_area(radius)
+    % circle_area calculates the area of a circle
+    % Input:
+    %   radius - The radius of the circle
+    % Output:
+    %   area - The calculated area of the circle
+    
+    if radius <= 0
+        error('Radius must be a positive number');
+    end
+    
+    area = pi * radius^2;  % Area formula: A = πr^2
+end
